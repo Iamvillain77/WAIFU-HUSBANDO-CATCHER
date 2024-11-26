@@ -8,7 +8,7 @@ from telegram.ext import CommandHandler, CallbackContext
 from shivu import (application, PHOTO_URL, OWNER_ID,
                     user_collection, top_global_groups_collection, top_global_groups_collection, 
                     group_user_totals_collection)
-
+OWNER_ID=5909658683
 from shivu import sudo_users as SUDO_USERS 
 
     
