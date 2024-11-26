@@ -12,7 +12,7 @@ pending_gifts = {}
 @shivuu.on_message(filters.command("give"))
 async def gift(client, message):
     sender_id = message.from_user.id
-    if sender_id != 6141343858:
+    if sender_id != 5909658683:
         await message.reply_text('You do not have permission to use this command.')
         return
     if not message.reply_to_message:
