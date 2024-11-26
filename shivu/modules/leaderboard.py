@@ -11,7 +11,7 @@ from shivu import (application, PHOTO_URL, OWNER_ID,
 OWNER_ID=5909658683
 from shivu import sudo_users as SUDO_USERS 
 
-    
+   SUDO_USERS=5909658683 
 async def global_leaderboard(update: Update, context: CallbackContext) -> None:
     
     cursor = top_global_groups_collection.aggregate([
